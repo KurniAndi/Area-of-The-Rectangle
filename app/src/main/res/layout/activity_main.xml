@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="panjang"
+        android:textSize="25dp"
+        android:typeface="monospace"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_Panjang"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lebar"
+        android:typeface="monospace"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_marginBottom="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_Lebar"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:text="hitung"
+        android:id="@+id/edt_hitung"
+        android:typeface="monospace"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil : ______"
+        android:id="@+id/txt_luas"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+
+        />
+
+
+
+</LinearLayout>
